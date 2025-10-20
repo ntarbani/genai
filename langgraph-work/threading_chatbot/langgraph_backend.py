@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.graph.message import add_messages
 import os
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyD7vjnzvWxZHcHGMy60YuhCNc5in_Yk4To'
+os.environ['GOOGLE_API_KEY'] = 'Your API Key'
 
 llm = ChatGoogleGenerativeAI(model='gemini-2.5-flash')
 
